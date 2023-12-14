@@ -1,0 +1,106 @@
+
+.nav{
+    max-width:  100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+     background-image: url("https://daotaobeptruong.vn/wp-content/uploads/2022/08/am-thuc-han-quoc-hap-dan.jpg"); 
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 150px;
+     width: 100%;
+     z-index: 4;
+     top: 0;
+     left: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   
+}
+
+a:hover{
+    color: white;
+    cursor: pointer;
+}
+a.logo{
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.search{
+    display: flex;
+    height: 40px;
+   
+}
+.search input{
+    width: 300px;
+    border-radius: 1rem 0 0 1rem;
+    border:none;
+}
+.search button{
+    border-radius: 0 1rem 1rem 0;
+    border:none;
+}
+
+.btn-primary{
+    background-color: rgb(158, 150, 150); /* Màu nền xanh */
+    border: none; /* Không có viền */
+    padding: 15px 32px; /* Khoảng cách giữa nội dung và biên */
+    margin: 4px 2px; /* Khoảng cách giữa các nút */
+    font-size: 16px; /* Cỡ chữ */
+    color: black; /* Màu chữ trắng */
+    text-align: center; /* Căn giữa chữ */
+    cursor: pointer; /* Con trỏ chuột hình bàn tay */
+    transition: 0.3s; /* Thời gian chuyển động */
+     height: 50px;
+     border-radius: 1rem;
+     position: absolute;
+     right: 30px;
+     flex-direction: row;
+     display: flex;
+     top:10px;
+     
+}
+.btn-primary:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#user{
+  margin-left: 10px;
+}
+
+  .btn-secondary{
+    background-color: rgb(158, 150, 150); /* Màu nền xanh */
+    border: none; /* Không có viền */
+    padding: 15px 32px; /* Khoảng cách giữa nội dung và biên */
+    margin: 4px 2px; /* Khoảng cách giữa các nút */
+    font-size: 16px; /* Cỡ chữ */
+    color: black; /* Màu chữ trắng */
+    text-align: center; /* Căn giữa chữ */
+    cursor: pointer; /* Con trỏ chuột hình bàn tay */
+    transition: 0.3s; /* Thời gian chuyển động */
+     height: 50px;
+     border-radius: 1rem;
+     position: absolute;
+     right: 30px;
+     flex-direction: row;
+     display: flex;
+     top:80px;
+}
+.btn-secondary:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+#cart{
+    margin-left:10px ;
+}
+
+
+
+

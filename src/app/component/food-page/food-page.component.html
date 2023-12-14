@@ -1,0 +1,22 @@
+<app-header></app-header>
+<div class="container">
+    <img [src]="foods.imageUrl" [alt]="foods.name"/>
+    <div class="detail">
+        <div class="header">
+            <span class="name">
+                {{foods.name}}
+            </span>
+            <!-- <span class="favorite {{foods.favorite? '':'not'}}">❤</span> -->
+        </div>
+        
+        <div class="tags">
+            <a *ngFor=" let tag of foods.tags" routerLink="/tag/{{tag}}">
+                {{tag}}</a>
+        </div>
+        <div class="price">
+            {{foods.price| currency:"VND":"symbol-narrow":"1.0-0"}}
+          </div>
+          <button (click)="addToCart()">Thêm vào giỏ hàng</button>
+    </div>
+</div>
+<app-footer></app-footer>

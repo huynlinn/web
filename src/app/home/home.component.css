@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lilita+One&family=Maven+Pro:wght@400;500&family=Montserrat:ital,wght@1,600&family=Poppins:wght@500;700&family=Share+Tech&family=Tilt+Neon&display=swap');
+
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+ li a{
+    height: 15rem;
+    width: 10rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 3rem;
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color:#3d0c11;
+}
+li a:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+li a img{
+    object-fit: cover;
+
+}
+.content{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+.favorite{
+    font-size: 1rem;
+    right: 1rem;
+    top:0;
+}
+.favorite.not{
+    color: gray;
+}
+.name{
+    color: red;
+}

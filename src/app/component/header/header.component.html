@@ -1,0 +1,20 @@
+
+<div class="nav">
+    <a routerLink="/" class="logo">F&B</a>
+    <div class="search">
+    <input #s type="text" placeholder="Tìm món ở đây!" (keyup.enter)="search(s.value)" [value]="searchTerm">
+    <button (click)="search(s.value)"> <i class="fas fa-search"></i> </button>
+
+    </div>
+
+    
+        <button [routerLink]="['/login']" class="btn-primary btn-block">
+            <p>Tài khoản </p>
+            <i class="fa-solid fa-user" id="user" ></i>
+        </button>
+        <button [routerLink]="['/cart-page']" class="btn-secondary btn-block">
+            <p>Giỏ hàng</p>
+            <i class="fa-solid fa-cart-shopping" id="cart" ></i>
+        </button>
+</div>
+

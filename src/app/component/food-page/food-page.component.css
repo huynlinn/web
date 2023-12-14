@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Oswald:wght@500&family=Poppins:wght@500;700&family=Tilt+Neon&display=swap');
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:14rem;
+    margin-bottom: 20rem;
+}
+.container>*{
+    min-width: 18rem;
+}
+img{
+    border-radius: 3rem;
+}
+.detail{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex: 1 0;
+    border: 3rem;
+    padding: 2rem;
+    color: black;
+    margin-left:3rem ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    color: red;
+    font-size: 2rem;
+    font-style: Oswald;
+    font-weight: 750;
+}
+.favorite{
+    color: red;
+    font-size: 1.5rem;
+}
+.favorite.not{
+    color: gray;
+}
+.tags{
+    flex-direction: wrap;
+    display: flex;
+}
+.tags a{
+    padding: 0.3rem 1rem;
+    margin:0.2rem 0.15rem;
+    border-radius:10rem ;
+    background-color: #f0f0f0;
+    color: black;
+    font-size: 1rem;
+}
+.price{
+    font-size: 1.5rem;
+    margin: 2rem 2rem 2rem 0;
+    font-weight: 600px;
+}
+.price::before{
+    content: "Giá: ";
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 10rem;
+    outline: none;
+    font-weight: 500;
+}
+button:hover{
+    opacity:0.9 ;
+    cursor: pointer;
+}

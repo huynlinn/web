@@ -1,0 +1,142 @@
+.payment-container{
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+  }
+  .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .header{
+    background-color: white;
+    border-bottom-style: ridge;
+    padding: 5px;
+  }
+  .address{
+    background-color: white;
+    width: 500px;
+  }
+  .address h2{
+    border-bottom-style: ridge;
+    padding: 5px;
+  }
+  label[for="location"]{
+    padding: 5px;
+  }
+  #location{
+    width: 470px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  label[for="note"]{
+    padding: 5px;
+  }
+  #note{
+    width: 470px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .order{
+    background-color: white;
+    margin-top: 20px;
+    height: 200px;
+  }
+  .order-title{
+    border-bottom-style:ridge ;
+  }
+  .order-title h2{
+    /* border-bottom-style: ridge; */
+    padding: 5px;
+    margin:0;
+  }
+  .order-title p{
+    margin-left: auto;
+    padding-right: 5px;
+    color:#4667DC;
+  }
+  .order-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .payment-method_discount{
+    background-color: white;
+   height: 180px;
+    margin-top: 20px;
+  }
+  .payment-method_discount h2{
+    border-bottom-style: ridge;
+    padding:5px;
+  }
+  
+  .payment-method form{
+    padding: 5px;
+  }
+  .discount form{
+    padding: 5px;
+  }
+  .payment{
+    background-color: white;
+  }
+  .payment h2{
+    border-bottom-style: ridge;
+    padding: 5px;
+  }
+  .sum{
+    border-top-style: ridge;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+   button{
+    width: 600px;
+    height: 30px;
+    background-color: #F6E546;
+    border-color: #dac50b;
+    border-radius: 5px;
+  }
+  .right{
+    margin-left: 30px;
+    width: 600px;
+    margin-right: 30px;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    font-weight: bold;
+  }
+  .fa-pen{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+  }
+  #price{
+    position: relative;
+    margin-left: 10px;
+   
+  }
+  .img{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+  }
+  .container_payment{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left:20px ;
+    justify-content: space-between;
+
+  }
+  .container_payment p{
+    margin-right: 20px;
+  }
+  

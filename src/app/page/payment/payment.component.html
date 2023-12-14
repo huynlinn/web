@@ -1,0 +1,88 @@
+
+    <div class="payment-container">
+        <div class="header">
+                <h1>Thanh toán</h1>
+        </div>
+        <div class="content">
+          <div class="left">
+            <div class="address">
+                <h2>Giao tới</h2>
+                <i class="fa-solid fa-location-dot"></i>
+                <label for="location">Địa chỉ</label><br>
+                <input type="text" name="location" id="location" placeholder="Nhập địa chỉ của bạn"><br>
+                <label for="note">Ghi chú cho tài xế</label><br>
+                <input type="text" id="note" name="note" placeholder="Ví dụ: Bác tài vui lòng gọi trước khi đến giao"><br>
+            </div>
+            <div class="order">
+              <div class="order-title">
+                <h2>Đơn hàng (1)</h2>
+                <p>Thêm món</p>
+              </div>
+              <div class="container">
+                <img class="img"src="https://images.foody.vn/res/g21/208155/s120x120/54899475-8c03-44b6-bca5-8a51c617-5120a1c1-230822175814.jpeg" alt="">
+                <p>1X</p>
+                <p>Cơm chiên kim chi phô mai</p>
+                <p id="price">95.000đ</p>
+                <i class="fa-solid fa-pen"></i>
+            </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="payment-method_discount">
+                <h2>Hình thức thanh toán & ưu đãi</h2>
+                    <div class="payment-method">
+                        <form action="">
+                            <input list="method" name="phuongthuc">
+                            <datalist id="method">
+                                <option value="Tiền mặt">
+                                <option value="MoMo">
+                            </datalist>
+                        </form>
+                    </div>
+                    <div class="discount">
+                        <form action="">
+                            <input list="discnt"name="khuyenmai">
+                            <datalist id="discnt">
+                              <option value="Giảm 5k phí ăn uống">
+                              <option value="Giảm 10k phí ăn uống">
+                              <option value="Giảm 15k phí ăn uống">
+                              <option value="Giảm 20k phí ăn uống">
+                              <option value="Giảm 25k phí ăn uống">
+                              <option value="Giảm 30k phí ăn uống">
+                              <option value="Giảm 40k phí ăn uống">
+                              <option value="Giảm 50k phí ăn uống">
+                              <option value="Giảm 3k phí giao hàng">
+                              <option value="Giảm 5k phí giao hàng">
+                              <option value="Giảm 10k phí giao hàng">
+                              <option value="Giảm 15k phí giao hàng">
+                              <option value="Giảm 20k phí giao hàng">
+                            </datalist>                            
+                        </form>
+                    </div>
+                <p>Bạn có thể áp dụng nhiều mã giảm giá cùng một lúc</p>    
+            </div>
+            <div class="payment">
+                <h2>Thanh toán</h2>
+                <div class="container_payment">
+                <p>Tạm tính (1 phần)</p>
+                <p>95.000đ</p>
+                </div>
+                <div class="container_payment">
+                <p>Giảm 25k phí ăn uống</p>
+                <p style="color:green;">-25.000đ</p>
+                </div>
+                <div class="container_payment">
+                <p>Giảm 3k phí giao hàng</p>
+                <p style="color: green;">-3.000đ</p>
+                  </div>
+                <div class="sum">
+                    <p >Tổng số tiền</p>
+                    <p>67.000đ</p>
+                </div>
+                <button>Đặt món</button>
+            </div>
+          </div>
+        </div>
+    </div>      
+
+
